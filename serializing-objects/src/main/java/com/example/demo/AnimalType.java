@@ -1,5 +1,5 @@
 package com.example.demo;
-
+// changes
 public enum AnimalType {
     CAT,
     COW,
