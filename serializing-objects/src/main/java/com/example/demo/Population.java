@@ -1,9 +1,6 @@
 package com.example.demo;
 
 import java.io.Serializable;
-/**
- * Класс содержит поля типа String - название, size и density - численность и плотность популяции
- */
 
 public class Population implements Serializable {
     private final String name;
