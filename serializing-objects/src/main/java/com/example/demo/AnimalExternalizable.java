@@ -6,10 +6,6 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.util.Objects;
 
-/**
- * Дубль класса Animal, для Serializer.serializeWithExternalizable
- * 3 тугрика
- */
 public class AnimalExternalizable implements Externalizable {
     private String name;
     private int age;
