@@ -3,10 +3,7 @@ package com.example.demo;
 
 import java.io.Serializable;
 import java.util.Objects;
-/**
- * Класс содержит поля типа String - имя, ade - возраст животного, boolean friendly и warmBlooded - дружелюбность и
- * теплокровность, enum AnimalType - тип животного, Population - объект популяции животного
- */
+
 public class Animal implements Serializable {
     private final String name;
     private final int age;
